@@ -1,4 +1,4 @@
-let text = "Hello there from lighthouse labs. ";
+let text = "Hello there from lighthouse labs. \n";
 
 let type = function(sentence) {
   let newStr = "";
@@ -11,9 +11,9 @@ let type = function(sentence) {
 type(text);
 // how to remove the % at the end?
 
-const sentence = "My name is EunSoo. Nice to meet you.";
+const sentence = "My name is EunSoo. Nice to meet you. \n";
 
-let delay = 5000;
+let delay = 2000;
 for (const char of sentence) {
   setTimeout(() => {
     process.stdout.write(char);
